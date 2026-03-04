@@ -1,0 +1,18 @@
+[project]
+name = "whisper-real-time"
+version = "0.1.0"
+description = "Real time offline transcriber with GUI, powered by OpenAI Whisper"
+requires-python = ">=3.10"
+dependencies = [
+    "openai-whisper",
+    "PyAudio",
+    "PyQt5",
+    "QDarkStyle",
+    "QtPy",
+    "ffmpeg-python",
+    "torch",
+    "tqdm",
+]
+
+[tool.uv]
+find-links = ["https://download.pytorch.org/whl/cu117"]

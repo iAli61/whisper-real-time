@@ -18,20 +18,20 @@ if language == "english" or language == "en":
 pwd = os.getcwd()
 
 # dir
-dir_audio_realtime = os.path.join(pwd, r"output\wav\realtime")
-dir_audio_live = os.path.join(pwd, r"output\wav\live")
-dir_audio_record = os.path.join(pwd, r"output\wav\record")
-dir_srt = os.path.join(pwd, r"output\srt")
-dir_txt = os.path.join(pwd, r"output\txt")
+dir_audio_realtime = os.path.join(pwd, "output", "wav", "realtime")
+dir_audio_live = os.path.join(pwd, "output", "wav", "live")
+dir_audio_record = os.path.join(pwd, "output", "wav", "record")
+dir_srt = os.path.join(pwd, "output", "srt")
+dir_txt = os.path.join(pwd, "output", "txt")
 
 # path
-path_text_list = os.path.join(pwd, r"output\txt\file_list.txt")
-path_text_history = os.path.join(pwd, r"output\txt\history.txt")
+path_text_list = os.path.join(pwd, "output", "txt", "file_list.txt")
+path_text_history = os.path.join(pwd, "output", "txt", "history.txt")
 
-path_audio_realtime = os.path.join(pwd, r"output\wav\realtime.wav")
-path_audio_live = os.path.join(pwd, r"output\wav\live.wav")
+path_audio_realtime = os.path.join(pwd, "output", "wav", "realtime.wav")
+path_audio_live = os.path.join(pwd, "output", "wav", "live.wav")
 
-path_icon = os.path.join(pwd, r"image\logo.svg")
+path_icon = os.path.join(pwd, "image", "logo.svg")
 
 # type
 type_final_realtime = "realtime-"

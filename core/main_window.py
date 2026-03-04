@@ -27,7 +27,6 @@ class MainWindow(QMainWindow):
 
     def init_better_ui(self):
         self.setWindowIcon(QIcon(constants.path_icon))
-        MainWindow.move(self, 540, 0)
         # QShortcut(QKeySequence(self.tr("Space")), self, self.clicked_button_live)
         # QShortcut(QKeySequence(self.tr("Ctrl+Space")), self, self.clicked_button_continue)
         # QShortcut(QKeySequence(self.tr("Ctrl+Q")), self, self.close)

@@ -7,7 +7,7 @@ from config import constants
 
 
 class Recorder:
-    def __init__(self, chunk=1024, channels=1, rate=64000):
+    def __init__(self, chunk=1024, channels=1, rate=16000):
         self.chunk = chunk
         self.channels = channels
         self.rate = rate

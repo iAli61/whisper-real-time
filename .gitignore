@@ -1,14 +1,25 @@
 /.idea
+__pycache__/
+*.pyc
+*.pyo
+
+.venv/
+*.egg-info/
 
 test
 archive
 temp
 output
 
-
 static
-
 templates
+
+# WSL2 test artifacts
+test_recording.wav
+test_record.py
+
+# uv
+uv.lock
 
 
 
